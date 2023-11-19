@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgba(173, 216, 230, 0.197);
+    /* background-color: rgba(173, 216, 230, 0.197); */
 }
 
 /* ///////////////ROOT/////////////// */
@@ -280,6 +280,7 @@ nav ul {
 
 .choose-title {
     font-weight: bold;
+    padding: 1em 0 0.5em;
 }
 
 .mission-image {
@@ -310,6 +311,21 @@ nav ul {
     transition: all 0.3s ease;
 }
 /* END */
+
+.objectives {
+    padding: 4em 2em;
+    text-align: center;
+    background-color: var(--fainted);
+    color: var(--green);
+    line-height: 1.5;
+    /* width: 80; */
+}
+
+.objectives-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
 
 /* SERVICES */
 .features-information {
@@ -731,11 +747,6 @@ footer {
         font-size: 1.2em;
     }
 
-    .title {
-        /* width: 90%; */
-        /* margin: auto; */
-    }
-
     /* HERO ABOUT */
     .brand-about {
         display: flex;
@@ -757,6 +768,15 @@ footer {
     .mission, .vision {
         text-align: center;
         width: 90%;
+        margin: auto;
+    }
+
+    .objectives-content {
+        /* display: flex;
+        flex-direction: column;
+        gap: 1em; */
+
+        width: 80%;
         margin: auto;
     }
 
