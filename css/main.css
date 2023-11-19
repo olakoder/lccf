@@ -315,8 +315,8 @@ nav ul {
 .objectives {
     padding: 4em 2em;
     text-align: center;
-    background-color: var(--fainted);
-    color: var(--green);
+    background-color: #fffcf545;
+    color: var(--cac-1);
     line-height: 1.5;
     /* width: 80; */
 }
