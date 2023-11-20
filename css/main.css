@@ -60,7 +60,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5em 2em;
+    padding: 1em 1em;
     background-color: var(--fainted);
     box-shadow: 1px 3px 8px rgba(211, 211, 211, 0.81);
     /* position: sticky; */
@@ -710,6 +710,7 @@ footer {
     header {
         position: sticky;
         top: 0;
+        padding: 1em 2em;
     }
 
     nav ul {
@@ -739,7 +740,7 @@ footer {
         align-items: center;
         justify-content: center;
         gap: 1.5em;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
 
@@ -763,8 +764,6 @@ footer {
         width: 90%;
         margin: auto;
     }
-
-
     .mission, .vision {
         text-align: center;
         width: 90%;
@@ -772,11 +771,7 @@ footer {
     }
 
     .objectives-content {
-        /* display: flex;
-        flex-direction: column;
-        gap: 1em; */
-
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
 
@@ -809,6 +804,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2em;
+        padding: 0 2em;
     }
     
     .get-in-touch :first-child {
