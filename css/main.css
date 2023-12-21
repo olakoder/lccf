@@ -536,7 +536,6 @@ nav ul {
 
 .client {
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     gap: 2em;
 }
@@ -549,7 +548,6 @@ nav ul {
 
 .client img:hover {
     width: 6em;
-    /* color: green; */
 }
 
 /* END */
@@ -605,6 +603,30 @@ nav ul {
 
 .connect a:hover {
     font-weight: bold;
+}
+
+.form-me {
+    background-color: rgba(49, 36, 36, 0.093);
+    text-align: center;
+    padding: 4em 2em;
+}
+
+form {
+    /* padding: 1em; */
+    /* background-color: red; */
+}
+
+input, select, button {
+    display: block;
+    margin-bottom: 1em;
+    padding: 1.2em;
+    width: 100%;
+    outline: none;
+    border: 0px solid green;
+}
+
+button {
+    background-color: var(--thick-pink);
 }
 
 .social-handle {
@@ -685,6 +707,12 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+
+    .form-me {
+        display: flex;
+        /* justify-content: center; */
+        /* width: 100%; */
+    }
     /* /////////////HEADER TOP/////////////// */
     .header-top {
         background-color: white;
